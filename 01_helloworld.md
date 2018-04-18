@@ -27,7 +27,7 @@
 
 ## 1.3 Pythonのインストール
 
-この講義では，しばらくはPythonをインストールせず，[Google Colaboratory](https://research.google.com/colaboratory/)を使う。ノートブックの保存方法を確認してから先に進むこと。（Google Colaboratoryには，[Chrome](https://www.google.co.jp/chrome/)でアクセスすることを推奨する．）
+この講義では，しばらくはPythonをインストールせず，[Google Colaboratory](https://research.google.com/colaboratory/)を使う（[Chrome](https://www.google.co.jp/chrome/)でGmailにログインしてからアクセスする．）
 
 メモ：Python 2とPython 3
 
