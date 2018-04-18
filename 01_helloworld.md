@@ -27,7 +27,7 @@
 
 ## 1.3 Pythonのインストール
 
-この講義では，しばらくはPythonをインストールせず，[Google Colaboratory](https://research.google.com/colaboratory/)を使う。ノートブックの保存方法を確認してから先に進むこと。
+この講義では，しばらくはPythonをインストールせず，[Google Colaboratory](https://research.google.com/colaboratory/)を使う。ノートブックの保存方法を確認してから先に進むこと。（Google Colaboratoryには，[Chrome](https://www.google.co.jp/chrome/)でアクセスすることを推奨する．）
 
 メモ：Python 2とPython 3
 
@@ -40,15 +40,15 @@
 **問題** 次の計算結果をPythonで得る方法を述べよ。
 
 * 2＋2
-* 2×2
-* 2÷4
+* 2×3
+* 10÷4
 * 10を3で割った商
 * 10を3で割った余り
 * 2の10乗（2^10と書くことが多い）
 
 **問題** `abc`と`'abc'`の**評価結果**を比べよ。
 
-**問題** `あいうえお`と`print('あいうえお')`の評価結果を比べよ。
+**問題** `'あいうえお'`と`print('あいうえお')`の評価結果を比べよ。
 
 **問題** 次の**スクリプト**は何をするものか。
 
