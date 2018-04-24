@@ -27,7 +27,7 @@
 
 ## 1.3 Pythonのインストール
 
-この講義では，しばらくはPythonをインストールせず，[Google Colaboratory](https://research.google.com/colaboratory/)を使う（[Chrome](https://www.google.co.jp/chrome/)でGmailにログインしてからアクセスする．）
+この講義では，しばらくはPythonをインストールせず，[Google Colaboratory](https://research.google.com/colaboratory/)を使う（[Chrome](https://www.google.co.jp/chrome/)でGmailにログインしてからアクセスする。）
 
 メモ：Python 2とPython 3
 
@@ -72,3 +72,8 @@ data = ['goo','choki','pa']       #リストの作成
 data_choice = random.choice(data) #ランダム選択
 print(data_choice)                #結果の表示
 ```
+
+## 教科書についてのコメント
+
+* p.28 図9の絵は1次元のほうがいい。
+* p.30 コラム：コンパイルという作業を必要としないというのは「スクリプト言語」の特徴の一つであって，定義ではない。コンパイルが不要な言語は「インタプリタ言語と呼ばれる。
