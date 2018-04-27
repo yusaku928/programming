@@ -15,6 +15,7 @@
 
 * lightbot
 * Swift Playgrounds
+* [Grasshopper](https://grasshopper.codes/)
 * SHENZHEN I/O
 * Human Resource Machine
 * MarionetteAI
@@ -28,4 +29,4 @@
 * [CodeMonkey](https://codemonkey.jp/)（無料の範囲でよい。）
 * [CodeCombat](https://codecombat.com/)（無料の範囲でよい。）
 * [CodinGame](https://www.codingame.com/)
-* [https://lab.github.com](https://lab.github.com)（プログラミングではないが，レポートの素材としては認める。）
+* [https://lab.github.com](https://lab.github.com)（プログラミングではないが，レポートの題材としては認める。）
