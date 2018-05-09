@@ -1,5 +1,7 @@
 # 第2章 プログラムの材料と道具
 
+機能の呼び出し方を紹介する。呼び出される機能には，**関数**と**メソッド**がある。
+
 [Chrome](https://www.google.co.jp/chrome/)でGmailにログインしてから，[Google Colaboratory](https://research.google.com/colaboratory/)にアクセスする。
 
 ## 2-2 材料の種類とデータ型
@@ -56,6 +58,8 @@ address.split(',')
 **問題** 文字列が持つメソッドを https://docs.python.jp/3.6/library/stdtypes.html#string-methods で調べ，まだ試していないものを試せ。
 
 **問題** `upper()`と対になる働きのメソッドを見つけよ。
+
+補足：大文字への変換は`address.upper()`，長さの取得は`len(address)'である。`address.upper()`とaddress.len()`や，`upper(address)`と`len(address)`になっていないのは，「そういうふうに作られたから」と思うしかない。Javaなら`address.toUpperCase()`と`address.length()`だから，この点に関してはわかりやすいが，配列の要素数が`myArray.length`（括弧がない）になるなど，わかりにくい部分は残る。
 
 **問題（オプショナル）** `(0.1).as_integer_ratio()`の結果を調べよ。これは，`0.1`の内部表現（2進数）が表す厳密な値（有理数）である。
 
