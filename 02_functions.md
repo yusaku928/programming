@@ -59,7 +59,14 @@ address.split(',')
 
 **問題** `upper()`と対になる働きのメソッドを見つけよ。
 
-補足：大文字への変換は`address.upper()`，長さの取得は`len(address)'である。`address.upper()`とaddress.len()`や，`upper(address)`と`len(address)`になっていないのは，「そういうふうに作られたから」と思うしかない。Javaなら`address.toUpperCase()`と`address.length()`だから，この点に関してはわかりやすいが，配列の要素数が`myArray.length`（括弧がない）になるなど，わかりにくい部分は残る。
+補足：関数とメソッドがあるせいでわかりにくくなっている。
+
+|機能|現実（Python）|あり得た方法1（両方メソッド）|あり得た方法2（両方関数）|
+|----|--------------|------------|--------|
+|大文字への変換|`address.upper()`|`address.toUpperCase()`|`upper(address)`|
+|長さの取得|`len(address)`|`address.length()`|`len(address)`|
+
+あり得た方法1はJavaの場合である。
 
 **問題（オプショナル）** `(0.1).as_integer_ratio()`の結果を調べよ。これは，`0.1`の内部表現（2進数）が表す厳密な値（有理数）である。
 
