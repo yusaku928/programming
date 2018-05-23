@@ -2,6 +2,8 @@
 
 データをひとまとめにする方法を説明する。
 
+[Chrome](https://www.google.co.jp/chrome/)でGmailにログインしてから，[Google Colaboratory](https://research.google.com/colaboratory/)にアクセスする。
+
 学生が10000人，A君，B君，・・・を名前で呼ぶのは大変．学生番号を付けて，学生[0]，学生[1]などと呼べるようになると便利．
 
 ```python
