@@ -1,5 +1,9 @@
 # 条件分岐と繰り返し
 
+プログラムの動作を制御する方法を学ぶ。
+
+[Chrome](https://www.google.co.jp/chrome/)でGmailにログインしてから，[Google Colaboratory](https://research.google.com/colaboratory/)にアクセスする。
+
 ## for文
 
 **問題** 次のプログラムの実行結果を確認せよ。
