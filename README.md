@@ -38,7 +38,7 @@
 1. [第3章 データと型のすべて](03_object.md)
 1. [第4章 データの入れ物](04_collections.md)
 1. [第5章 条件分岐と繰り返し](05_structure.md)
-1. [（バージョン管理）](vcs.md)
+1. [（バージョン管理）](vcs.md)・[Anaconda](https://www.anaconda.com/download/)のインストール
 1. 第6章 ファイルの読み書き
 1. 第7章 Pythonで絵を描く
 1. 第8章 関数を作る
