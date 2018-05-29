@@ -38,11 +38,13 @@ d = {'Alice':2, 'Bob':3, 'Taro':3, 'ABC':2, 'PQR':2, 'XYZ':1} #辞書
 
 [Chrome](https://www.google.co.jp/chrome/)でGmailにログインしてから，[Google Colaboratory](https://research.google.com/colaboratory/)にアクセスする。
 
-サイコロを100回振る．以下のようなデータを格納するのにふさわしいコレクションを，{リスト, セット, 辞書}から選べ．
+サイコロを10回振る．以下のようなデータを格納するのにふさわしいコレクションを，{リスト, セット, 辞書}から選べ．
 
 * 出た目をすべて記録する．
 * 出た目の種類を記録する．
 * 出た目の回数を記録する．
+
+発展：すべての記録さえあれば，それを●●にすることで「出た目の種類」が，collectionsモジュールのCounterクラスを使うことで「出た目の回数」を求められる。
 
 ## リスト
 
@@ -148,8 +150,6 @@ print(list_mix)
 
 **問題** `country_code[81] = 'Nippon'`を実行した後の，`print(country_code)`の結果を調べよ。
 
-**問題** `country_code[1] = 'Nippon'`を実行した後の，`print(country_code)`の結果を調べよ。
-
 **問題** `country_code.pop(1)`を実行する前後の，`print(country_code)`の結果を調べよ。
 
 **問題** 空の辞書`myDic = {}`から始めて，`{'orange': 140, 'apple': 100}`を作れ。
@@ -165,6 +165,12 @@ print(list_mix)
 >>> code['China']
 86
 ```
+
+**問題（オプショナル）** 辞書には，キーに対応する値を取り出す方法が三つある。キーが存在しない場合に着目し，それぞれの動作を確認せよ。
+
+* `myDic[キー]`
+* `myDic.get(キー, 値)`
+* `myDic.setdefault(キー, 値)`
 
 **問題** データをひとまとめにする四つの方法について，簡単な例を挙げよ。
 
