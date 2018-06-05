@@ -1,5 +1,7 @@
 # バージョン管理・Anacondaのインストール
 
+[Anaconda](https://www.anaconda.com/download/)をダウンロードしながら先に進む。ダウンロードが終わったらインストールしながら先に進む。
+
 ## バージョン管理
 
 ### 準備
@@ -34,8 +36,7 @@
 
 ## Anaconda
 
-1. [Anaconda](https://www.anaconda.com/download/)をインストールする。
-1. Anaconda PromptからPythonを起動し，`exit()`または`quit()`で終了する。
+Anaconda PromptからPythonを起動し，`exit()`または`quit()`で終了する。
 
 ### 作業ディレクトリ
 
