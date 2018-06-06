@@ -36,7 +36,7 @@
 
 ## Anaconda
 
-Anaconda PromptからPythonを起動し，`exit()`または`quit()`で終了する。
+Anaconda Promptから`python`でPythonを起動し，`exit()`または`quit()`で終了する。
 
 ### 作業ディレクトリ
 
