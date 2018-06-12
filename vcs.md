@@ -1,6 +1,6 @@
 # バージョン管理・Anacondaのインストール
 
-[Anaconda](https://www.anaconda.com/download/)をダウンロードしながら先に進む。ダウンロードが終わったらインストールしながら先に進む。
+[Anaconda](https://www.anaconda.com/download/)をダウンロードしながら先に進む。ダウンロードが終わったらインストールしながら先に進む。（インストールはすべてデフォルトのまま進めてよいが，途中でVisual Studio Codeのインストールについて聞かれたら，「Install Microsoft VSCode」をクリックしてインストールする。それをSkipしてしまった場合は，https://code.visualstudio.com/ に行ってダウンロード，インストールすればよい。）
 
 ## バージョン管理
 
@@ -10,6 +10,12 @@
 1. Verify email address.
 1. https://desktop.github.com/ でGitHub Desktopをダウンロードし，インストールする。
 1. GitHub Desktopを起動し，GitHubのアカウント情報を追加する。
+
+Windowsのユーザ名に全角スペースが含まれていると，GiHub Desktop 1.2.3は正しく動作しない（プッシュができない）。以下のような解決策がある。
+
+* （推奨）Windowsのユーザを新たに作る。ユーザ名はASCII文字だけにした方がいい。（ユーザ名に非ASCII文字を使っていると，将来他のことでも問題が起こる危険性があるから，早く変えてしまった方がいい。）
+* 別のGitクライアントを使う。（例：SourceTreeは強力。日本語化もされている。ただし，利用時にユーザ登録が必要。）
+* コマンドプロンプトでプッシュする。そのために，https://git-scm.com/downloads からGitをダウンロード，インストールしておく。GUIでプッシュする代わりに，Repositoryメニューの「Open in Command Prompt」をクリックし，`git push origin`を実行する。
 
 ### 自分のリポジトリ
 
