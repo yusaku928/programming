@@ -19,8 +19,7 @@ Windowsのコマンドを極めたい人は，[Windows Commands Reference（英�
 
 ## Anaconda PromptでのPythonプログラムの実行
 
-1. エクスプローラで`c:/cit`にテキストファイル`rand.py`を作る（`rand.py.txt`ではない）。
-1. VSCodeで`rand.py`を開く。
+1. VSCodeで新しいファイルを作り，`rand.py`という名前で保存する。
 1. Pythonのための拡張機能のインストールを促されるから，インストールする。
 1. 左下の「Select Python Environment」をクリックし，Anacondaを選択する。
 1. `rand.py`の内容を以下のとおりとし，保存する。
