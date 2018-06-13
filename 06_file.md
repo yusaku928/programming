@@ -20,9 +20,9 @@ Windowsのコマンドを極めたい人は，[Windows Commands Reference（英�
 ## Anaconda PromptでのPythonプログラムの実行
 
 1. VSCodeで新しいファイルを作り，`rand.py`という名前で保存する。
-1. Pythonのための拡張機能のインストールを促されるから，インストールする。
+1. 「このファイルの種類には拡張機能'Python'が推奨されます。」と言われたら，「インストール」をクリックする。
 1. 左下の「Select Python Environment」をクリックし，Anacondaを選択する。
-1. `rand.py`の内容を以下のとおりとし，保存する。
+1. `rand.py`の内容を以下のとおりとし，保存する。（途中でコード補完機能が働くことを確認する。）
 
 ```python
 import random
