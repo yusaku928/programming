@@ -27,10 +27,9 @@ Windowsのコマンドを極めたい人は，[Windows Commands Reference（英�
 ```python
 import random
 
-for i in range(10):
+for i in range(100):
   x = random.randint(1, 1000)
   print('{0:4d}'.format(x))
-
 ```
 Anaconda Promptで以下のように実行する。
 
@@ -60,6 +59,8 @@ python rand.py
 
 ## 標準入力
 
+### 1行ずつ読み込む
+
 **問題** Pythonで標準入力を処理する方法を，以下のプログラムtest.pyで確認せよ。（動作確認は`python rand.py | python test.py`でよい。）
 
 ```python
@@ -70,9 +71,35 @@ for line in sys.stdin:
     print('[' + tmp + ']')
 ```
 
-**問題** `python rand.py | python sum.py`とすると，rand.pyの出力を10倍した結果を表示するようなプログラムを書け。ヒント：`float(文字列)`とすれば,文字列が数値に変換される。
+**問題** `python rand.py | python test2.py`とすると，rand.pyの出力を10倍した結果を表示するようなプログラムを書け。ヒント：`float(文字列)`とすれば,文字列が数値に変換される。
 
 **問題** `python rand.py | python sum.py`とすると，rand.pyの出力を表示し，最後に数の合計を表示するプログラムを書け。
+
+### まとめて読み込む
+
+**問題** 次のプログラムhist.pyを，`python rand.py | python hist.py`のように使った場合の結果を調べよ。
+
+```python
+import sys
+import matplotlib.pyplot as plt
+
+step1 = sys.stdin.readlines()
+step2 = list(map(float, step1))
+plt.hist(step2)
+plt.show()
+```
+
+**問題（オプショナル）** 「まとめて読み込む」方法を使うように，先のtest.pyを書き直せ。
+
+**問題（オプショナル）** 「まとめて読み込む」方法を使うように，先のtest2.pyを書き直せ。
+
+**問題（オプショナル）** 「まとめて読み込む」方法を使うように，先のsum.pyを書き直せ。
+
+**問題（オプショナル）** 「1行ずつ読み込む」方法を使うように，先のhist.pyを書き直せ。
+
+**問題（オプショナル）** 「0以上1未満の乱数10個の和」を1000個（1行に1個，つまり1000行）出力するプログラムrand2.pyを作り，`python rand2.py | python hist.py`を試せ。
+
+### CSVファイルの処理
 
 **問題** テキストエディタで次のような内容のtest.csvを作り，Excelで開いてみよ。
 
