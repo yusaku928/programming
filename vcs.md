@@ -11,6 +11,7 @@ Windowsのユーザ名に非ASCII文字が含まれていると，デフォル�
 * （推奨）Windowsのユーザを新たに作る。ユーザ名はASCII文字だけにする。**ユーザ名の変更は推奨しない（他に影響があるかもしれない）。**
 * インストール先を変更する（例：`c:/cit/Anaconda3`）
 * Install for:を「Just Me」ではなく「All Users」にする。
+* [Chocolatey](https://chocolatey.org/)でインストールする。（`cinst -y Anaconda3'）
 
 ## バージョン管理
 
