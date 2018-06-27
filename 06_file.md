@@ -77,7 +77,7 @@ for line in sys.stdin:
 
 ### まとめて読み込む
 
-**問題** 次のプログラムhist.pyを，`python rand.py | python hist.py`のように使った場合の結果を調べよ。
+**問題（オプショナル）** 次のプログラムhist.pyを，`python rand.py | python hist.py`のように使った場合の結果を調べよ。
 
 ```python
 import sys
