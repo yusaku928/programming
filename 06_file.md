@@ -71,9 +71,9 @@ for line in sys.stdin:
     print('[' + tmp + ']')
 ```
 
-**問題** `python rand.py | python test2.py`とすると，rand.pyの出力を10倍した結果を表示するようなプログラムを書け。ヒント：`float(文字列)`とすれば,文字列が数値に変換される。
+**問題** `python rand.py | python test2.py`とすると，rand.pyの出力を10倍した結果を表示するようなプログラムtentimes.pyを書け。ヒント：`float(文字列)`とすれば,文字列が数値に変換される。
 
-**問題** `python rand.py | python sum.py`とすると，rand.pyの出力を表示し，最後に数の合計を表示するプログラムを書け。
+**問題** `python rand.py | python sum.py`とすると，rand.pyの出力を表示し，最後に数の合計を表示するプログラムsum.pyを書け。
 
 ### まとめて読み込む
 
