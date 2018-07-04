@@ -10,6 +10,7 @@ Anaconda Promptで`python`としてインタラクティブシェルを起動し
 import turtle
 turtle = turtle.Turtle()
 turtle.position()
+#end
 ```
 
 動作が不安定になったら、一度`quit()`で終了しインタラクティブシェルを再起動するといい。
@@ -24,6 +25,7 @@ turtle.left(120)
 turtle.forward(200)
 turtle.left(120)
 turtle.forward(200)
+#end
 ```
 
 **問題** 次のコードで描かれる図形は何か。（`for`文を終わらせるために、最後に空行が必要。）
