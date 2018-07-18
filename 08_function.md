@@ -42,7 +42,7 @@ import importlib
 importlib.reload(my_module)
 ```
 
-**問題** 正の整数nを与えると，1からnまでの整数を表示する関数`count(n)`を作れ。
+**問題** 正の整数nを与えると，1からnまでの整数を表示する関数`count(n)`を作れ。`return`は無くてよい。
 
 **問題** 正の整数nを与えると，1からnまでの整数の和を返すような関数`total(n)`を作れ。
 
