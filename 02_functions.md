@@ -63,10 +63,10 @@ address.split(',')
 
 |機能|現実（Python）|あり得た方法1（両方メソッド）|あり得た方法2（両方関数）|
 |----|--------------|------------|--------|
-|大文字への変換|`address.upper()`|`address.toUpperCase()`|`upper(address)`|
-|長さの取得|`len(address)`|`address.length()`|`len(address)`|
+|大文字への変換|`address.upper()`|`address.toUpperCase()`|`str_to_upper(str)`|
+|長さの取得|`len(address)`|`address.length()`|`str_length(str)`|
 
-あり得た方法1はJavaの場合である。
+あり得た方法1はJava，方法2はRである。
 
 **問題（オプショナル）** `(0.1).as_integer_ratio()`の結果を調べよ。これは，`0.1`の内部表現（2進数）が表す厳密な値（有理数）である。
 
