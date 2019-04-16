@@ -1,27 +1,27 @@
 # プログラム言語とプログラミング
 
-## 事前説明
+データ解析入門は[こちら](https://github.com/taroyabuki/analysis)
 
-### 重要なサイト
+## 重要なサイト
 
 * 講義資料：https://github.com/taroyabuki/programming
 * 連絡チャネル：https://pmcit.slack.com/ （https://join.slack.com/t/pmcit/signup でアカウントを作り，チャネル「2019プログラム言語とプログラミング」に参加する。）
 
-### 教科書
+## 教科書
 
 コーリー・アルソフ『独学プログラマー』（日経BP社, 2018）
 
-### 持ち物
+## 持ち物
 
 * PC（無線LAN機能付き）
 
-### 評価
+## 評価
 
 * レポート1（30）
 * レポート2（30）
 * 期末テスト（40）
 
-#### レポート
+### レポート
 
 レポートの詳細はSlackに掲載する。
 
