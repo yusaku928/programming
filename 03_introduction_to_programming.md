@@ -53,6 +53,7 @@ print\
 ```javascript
 for (i = 0; i < 5; i++) {
     console.log("Hello, World!");
+    console.log("こんにちは");
 }
 ```
 
@@ -188,5 +189,3 @@ if x % 2 == 0:
 elif x % 2 != 0:
   print("数値は奇数です．")
 ```
-
-
