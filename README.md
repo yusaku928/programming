@@ -30,7 +30,7 @@
 1. [イントロダクション](01_introduction.md)
 1. [さあ，はじめよう！](02_getting_started.md)
 1. [プログラミング入門](03_introduction_to_programming.md)
-1. 関数
+1. [関数](04_functions.md)
 1. コンテナ
 1. 文字列操作
 1. ループ
