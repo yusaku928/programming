@@ -189,3 +189,29 @@ if x % 2 == 0:
 elif x % 2 != 0:
   print("数値は奇数です．")
 ```
+
+**問題：** my_score（点数）とmy_absences（欠席）の値によって出力を変えるプログラムを完成させよ．
+
+```python
+my_score = 80
+my_absences = 5
+
+if ...
+# 実行すると「欠席」と表示される
+```
+
+```python
+my_score = 60
+my_absences = 3
+
+if ...
+# 実行すると「合格」と表示される
+```
+
+```python
+my_score = 40
+my_absences = 3
+
+if ...
+# 実行すると「不合格」と表示される
+```
