@@ -215,3 +215,11 @@ my_absences = 3
 if ...
 # 実行すると「不合格」と表示される
 ```
+
+```python
+my_score = 40
+my_absences = 6
+
+if ...
+# 実行すると「欠席」と表示される
+```
