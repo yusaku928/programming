@@ -15,6 +15,16 @@
 
 * PC（無線LAN機能付き）
 
+## 実行環境
+
+[Google Colaboratory](https://research.google.com/colaboratory/)の「Python 3のノートブック」を使う。
+
+インターネット接続のない環境で学びたい場合は，Anacondaを使う。（ただし，Anaconda自体のインストールには，インターネット接続が必要である。）
+
+1. https://www.anaconda.com/distribution/ からWindows版の64-Bit Graphical Installerをダウンロードし，実行する．
+1. スタートメニューからAnaconda Promptを起動し，`jupyter notebook`と入力し，Enterキーを押す．
+1. ブラウザで「New」→「Python 3」
+
 ## 評価
 
 * レポート1（30）
