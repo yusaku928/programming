@@ -11,7 +11,7 @@
 
 **問題** メソッドの練習：`"Hello".replace("l", "e")`の結果を確認せよ．
 
-**問題** 文字列が持つメソッドを使う例を5個作れ．ヒント：https://docs.python.org/ja/3/library/stdtypes.html#string-methods
+**問題（レポート課題）** 文字列が持つメソッドを使う例を5個作れ．ヒント：https://docs.python.org/ja/3/library/stdtypes.html#string-methods
 
 **問題** 以下のコンテナについて，絵を描いて説明せよ．
 
