@@ -34,7 +34,9 @@
 要素の削除|`x.pop()`，`x.pop(番号)`||`x.remove(値)`|`x.pop(キー)`
 要素の存在確認|`値 in x`|`値 in x`|`値 in x`|`キー in x`
 要素数の取得|`len(x)`|`len(x)`|`len(x)`|`len(x)`
-コンテナの連結|`x + y`|`x + y`|`x.union(y)`，`x.intersection(y)`，`x.difference(y)`|
+コンテナの連結|`x + y`|`x + y`|＊|
+
+＊の部分は`x.union(y)`，`x.intersection(y)`，`x.difference(y)`
 
 **問題** リストについて，以下の操作を行え．
 
