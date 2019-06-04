@@ -33,7 +33,15 @@
 
 ### レポート
 
-レポートの詳細はSlackに掲載する。
+1. GitHubのアカウントを作成する．
+1. 教員から指示されたURLにアクセスする．（授業を欠席してURLがわからない場合は，他の学生に聞くか，大学のメアドで教員に問い合わせること．）
+1. 「Authorize GitHub Classroom」の画面で「Authorize github」をクリックする（1回だけ）．
+1. 「Accept this assignment」をクリックする．
+1. 「Your assignment has been created here:」のURLにアクセスする．ここがレポートの保存場所（リポジトリ）である．
+1. ファイルREADME.mdでレポートを書く．（このファイルはMarkdown記法で書くことになっている．詳細は「github markdown」で検索して確認せよ．）
+    1. 鉛筆マークをクリック
+    1. 編集
+    1. 「Commit changes」をクリックして完了．修正したい場合は1に戻る．
 
 ## 予定
 
