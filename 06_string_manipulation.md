@@ -40,7 +40,7 @@ print("Hello" + ", " + "World!")
 print("Hello " * 3)
 ```
 
-**問題** 文字列のメソッド`upper()`，`lower()`，`capitalize()`の動作を調べよ．ヒント：https://docs.python.org/ja/3/library/stdtypes.html?highlight=upper#string-methods
+**問題（レポート課題）** 文字列のメソッド`upper()`，`lower()`，`capitalize()`の動作を調べよ．ヒント：https://docs.python.org/ja/3/library/stdtypes.html?highlight=upper#string-methods
 
 **問題** 文字列を整形する方法を確認せよ．
 
