@@ -40,8 +40,6 @@ print("Hello" + ", " + "World!")
 print("Hello " * 3)
 ```
 
-**問題（レポート課題）** 文字列のメソッド`upper()`，`lower()`，`capitalize()`の動作を調べよ．ヒント：https://docs.python.org/ja/3/library/stdtypes.html?highlight=upper#string-methods
-
 **問題** 文字列を整形する方法を確認せよ．
 
 ```python
@@ -74,13 +72,8 @@ s2 = str.strip()
 print(s2)
 ```
 
-**問題** 文字列の前後の空白を除去する方法を確認せよ．
+**問題（レポート課題）** 文字列のメソッド`upper()`，`lower()`，`capitalize()`の動作を調べよ．ヒント：https://docs.python.org/ja/3/library/stdtypes.html?highlight=upper#string-methods
 
-```python
-s = '   前後に空白   '
-print(s)
-print(s.strip())
-```
 
 **問題** 文字列から文字を検索する方法を確認せよ．
 
