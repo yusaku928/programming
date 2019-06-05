@@ -96,8 +96,4 @@ c = {'A':10, 'B':20, 'C':30}
 
 **問題** `[10, 20, 30, 20, 10, 10, 20]`というリストから重複を削除せよ．順番は保存しなくてよい．
 
-**問題** 前問のリストで，何が何回出てくるかを数える方法を考えよ．
-
-**問題（レポート課題）** 前問を[Counter](https://docs.python.org/ja/3/library/collections.html#collections.Counter)を使って解決せよ．
-
-**問題（レポート課題）** 前問を[defaultdict](https://docs.python.org/ja/3/library/collections.html#collections.defaultdict)を使って解決せよ．
+**問題（レポート課題）** リスト・タプル・セット・辞書の違いを，コードを使って説明せよ．
