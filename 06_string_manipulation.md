@@ -67,19 +67,19 @@ print(f'{name}は{year}年に生まれた．') # Python 3.6以降
 **問題** 文字列の前後の空白を除去する方法を確認せよ．
 
 ```python
-str = '   前後に空白   '
-print(str)
+s = '   前後に空白   '
+print(s)
 
-str2 = str.strip()
-print(str2)
+s2 = str.strip()
+print(s2)
 ```
 
 **問題** 文字列の前後の空白を除去する方法を確認せよ．
 
 ```python
-str = '   前後に空白   '
-print(str)
-print(str.strip())
+s = '   前後に空白   '
+print(s)
+print(s.strip())
 ```
 
 **問題** 文字列から文字を検索する方法を確認せよ．
