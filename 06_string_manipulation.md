@@ -68,7 +68,7 @@ print(f'{name}は{year}年に生まれた．') # Python 3.6以降
 s = '   前後に空白   '
 print(s)
 
-s2 = str.strip()
+s2 = s.strip()
 print(s2)
 ```
 
