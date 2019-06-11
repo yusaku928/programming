@@ -51,7 +51,7 @@
 1. [関数](04_functions.md)
 1. [コンテナ](05_containers.md) **宿題：https://github.com のアカウントを作っておくこと（すでにある人は作業不要）．** 参考：[【2019年1月現在】GitHubアカウント作成方法](https://qiita.com/okumurakengo/items/848f7177765cf25fcde0)
 1. [文字列操作](06_string_manipulation.md)
-1. [ループ](07_loops.html)
+1. [ループ](07_loops.md)
 1. モジュール・バージョン管理
 1. ファイル
 1. 知識を1つにまとめる（1）
