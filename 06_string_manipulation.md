@@ -75,14 +75,12 @@ print(s2)
 **問題（レポート課題）** 文字列のメソッド`upper()`，`lower()`，`capitalize()`の動作を調べよ．ヒント：https://docs.python.org/ja/3/library/stdtypes.html?highlight=upper#string-methods
 
 
-**問題** 文字列から文字を検索する方法を確認せよ．
+**問題** 文字列から文字列を検索する方法を確認せよ．（エラーはここでは気にしなくていい．）
 
 ```python
-print('animals'.index('m'))
-print('animals'.index('z'))
+print('animals'.index('ma'))
+print('animals'.index('zz'))
 ```
-
-**問題** 上の問いの例外に対処せよ．
 
 **問題** 文字列Aに文字列Bが含まれているかどうかを調べる方法を確認せよ．
 
@@ -90,7 +88,13 @@ print('animals'.index('z'))
 'pen' in 'This is a pen.'
 ```
 
-**問題** エラーを修正せよ（文章中の引用符がおかしいことは今は気にしない）．補足：想定していない回答：`"This 'is' a pen."`
+**問題** エラーに対処せよ．（方法は二つある．）
+
+```python
+print('animals'.index('zz'))
+```
+
+**問題** 不具合を修正せよ（文章中の引用符がおかしいことは今は気にしない）．補足：想定していない回答：`"This 'is' a pen."`
 
 ```python
 'This 'is' a pen.'
