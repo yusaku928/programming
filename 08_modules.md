@@ -7,7 +7,7 @@
 
 ## 演習
 
-**問題：** 2^3を計算する方法を確認せよ。
+**問題** 2^3を計算する方法を確認せよ。
 
 ```python
 import math
@@ -15,9 +15,9 @@ import math
 math.pow(2, 3)
 ```
 
-**問題：** for文を使って2^3を計算せよ。
+**問題** for文を使って2^3を計算せよ。
 
-**問題：** 乱数を発生させる方法を確認せよ。
+**問題** 乱数を発生させる方法を確認せよ。
 
 ```python
 import random
@@ -25,7 +25,7 @@ import random
 random.randint(0, 100)
 ```
 
-**問題：** 平均を計算する方法を確認せよ。
+**問題** 平均を計算する方法を確認せよ。
 
 ```python
 import statistics
@@ -34,11 +34,11 @@ nums = [1, 5, 33, 12, 46, 33, 2]
 statistics.mean(nums)
 ```
 
-**問題：** numsの中央値と最頻値を計算せよ。
+**問題** numsの中央値と最頻値を計算せよ。
 
-**問題（レポート課題）：** for文を使って平均を計算せよ。
+**問題（レポート課題）** for文を使って平均を計算せよ。
 
-**問題：** モジュールを作る方法を確認せよ。（Google Colaboratoryでファイルを作る安直な方法）
+**問題** モジュールを作る方法を確認せよ。（Google Colaboratoryでファイルを作る安直な方法）
 
 ```python
 !echo "def print_hello():" > hello.py
@@ -59,7 +59,7 @@ import hello
 hello.print_hello()
 ```
 
-**問題：** モジュール中の動作確認用コードが，import時には実行されないようにする方法を確認せよ。
+**問題** モジュール中の動作確認用コードが，import時には実行されないようにする方法を確認せよ。
 
 ```python
 !echo "print('Hello!')" > module1.py

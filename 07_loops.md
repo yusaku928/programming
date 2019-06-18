@@ -97,14 +97,8 @@ while i > 0:
 print('Happy New Year!')
 ```
 
-**問題** forでの書き換え
+**問題（レポート課題）** 上のコードをforを使って書き換えよ。ヒント：https://docs.python.org/ja/3/library/stdtypes.html#typesseq-range でrangeの使い方を確認する。
 
-```python
-for i in (range(10, 0, -1)):
-  print(i)
-
-print('Happy New Year!')
-```
 **問題** breakとcontinue
 
 ```python
@@ -129,9 +123,3 @@ for i in range(1, 3):
   for ch in ['a', 'b', 'c']:
     print(f'  {ch}')
 ```
-
-**問題** `[10, 20, 30, 20, 10, 10, 20]`というリストにおける，個々の数値とその出現回数を調べよ．
-
-**問題（レポート課題）** 前問を[Counter](https://docs.python.org/ja/3/library/collections.html#collections.Counter)を使って解決せよ．
-
-**問題（レポート課題）** 前問を[defaultdict](https://docs.python.org/ja/3/library/collections.html#collections.defaultdict)を使って解決せよ．
