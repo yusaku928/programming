@@ -34,17 +34,41 @@ for k in dic:
 
 （新しいリストを作る例を入れる予定）
 
-**問題** ループによるコンテナの変更
+**問題** コンテナの要素の変換（方針1：新しいコンテナを作る）
 
 ```python
-# 準備
 fruits = ['Apple', 'Orange', 'Grape']
-for i, f in enumerate(fruits):
-  print(i, f)
+
+results = []
+for i in fruits:
+  results.append(i.upper())
+
+print(results)
 ```
 
 ```python
 fruits = ['Apple', 'Orange', 'Grape']
+
+# 内包表記
+results = [i.upper() for i in fruits]
+
+print(results)
+```
+
+**問題** コンテナの要素の変換（方針2：既存のコンテナを書き換える）
+
+```python
+fruits = ['Apple', 'Orange', 'Grape']
+
+for i in range(len(fruits)):
+  fruits[i] = fruits[i].upper()
+
+print(fruits)
+```
+
+```python
+fruits = ['Apple', 'Orange', 'Grape']
+
 for i, f in enumerate(fruits):
   fruits[i] = f.upper()
 
@@ -54,25 +78,9 @@ print(fruits)
 ```python
 # ダメな例
 fruits = ['Apple', 'Orange', 'Grape']
+
 for i, f in enumerate(fruits):
   f = f.upper()
-
-print(fruits)
-```
-
-**問題** rangeの利用
-
-```python
-# 準備
-fruits = ['Apple', 'Orange', 'Grape']
-for i in range(len(fruits)):
-  print(i)
-```
-
-```python
-fruits = ['Apple', 'Orange', 'Grape']
-for i in range(len(fruits)):
-  fruits[i] = fruits[i].upper()
 
 print(fruits)
 ```
@@ -81,9 +89,11 @@ print(fruits)
 
 ```python
 i = 10
+
 while i > 0:
   print(i)
   i -= 1
+
 print('Happy New Year!')
 ```
 
@@ -92,6 +102,7 @@ print('Happy New Year!')
 ```python
 for i in (range(10, 0, -1)):
   print(i)
+
 print('Happy New Year!')
 ```
 **問題** breakとcontinue
