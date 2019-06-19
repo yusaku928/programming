@@ -40,8 +40,6 @@ print("Hello" + ", " + "World!")
 print("Hello " * 3)
 ```
 
-**問題（レポート課題）** 文字列のメソッド`upper()`，`lower()`，`capitalize()`の動作を調べよ．ヒント：https://docs.python.org/ja/3/library/stdtypes.html?highlight=upper#string-methods
-
 **問題** 文字列を整形する方法を確認せよ．
 
 ```python
@@ -67,29 +65,22 @@ print(f'{name}は{year}年に生まれた．') # Python 3.6以降
 **問題** 文字列の前後の空白を除去する方法を確認せよ．
 
 ```python
-str = '   前後に空白   '
-print(str)
+s = '   前後に空白   '
+print(s)
 
-str2 = str.strip()
-print(str2)
+s2 = s.strip()
+print(s2)
 ```
 
-**問題** 文字列の前後の空白を除去する方法を確認せよ．
+**問題（レポート課題）** 文字列のメソッド`upper()`，`lower()`，`capitalize()`の動作を調べよ．ヒント：https://docs.python.org/ja/3/library/stdtypes.html?highlight=upper#string-methods
+
+
+**問題** 文字列から文字列を検索する方法を確認せよ．（エラーはここでは気にしなくていい．）
 
 ```python
-str = '   前後に空白   '
-print(str)
-print(str.strip())
+print('animals'.index('ma'))
+print('animals'.index('zz'))
 ```
-
-**問題** 文字列から文字を検索する方法を確認せよ．
-
-```python
-print('animals'.index('m'))
-print('animals'.index('z'))
-```
-
-**問題** 上の問いの例外に対処せよ．
 
 **問題** 文字列Aに文字列Bが含まれているかどうかを調べる方法を確認せよ．
 
@@ -97,7 +88,13 @@ print('animals'.index('z'))
 'pen' in 'This is a pen.'
 ```
 
-**問題** エラーを修正せよ（文章中の引用符がおかしいことは今は気にしない）．補足：想定していない回答：`"This 'is' a pen."`
+**問題** エラーに対処せよ．（方法は二つある．）
+
+```python
+print('animals'.index('zz'))
+```
+
+**問題** 不具合を修正せよ（文章中の引用符がおかしいことは今は気にしない）．補足：想定していない回答：`"This 'is' a pen."`
 
 ```python
 'This 'is' a pen.'
@@ -106,6 +103,12 @@ print('animals'.index('z'))
 **問題** スライスの例を試せ．
 
 ```python
+s ='animals'
+
+s[1:4] #1文字目から4文字目の手前まで
+s[2:]  #2文字目以降
+s[:4]  #4文字目の手前まで
+
 a = [10, 20, 30, 40]
 
 a[1:2]
