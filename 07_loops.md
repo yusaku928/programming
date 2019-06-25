@@ -56,6 +56,7 @@ print(results)
 **問題** コンテナの要素の変換（方針2：既存のコンテナを書き換える）
 
 ```python
+# 方法1（他の言語と同じ）
 fruits = ['Apple', 'Orange', 'Grape']
 
 for i in range(len(fruits)):
@@ -65,6 +66,17 @@ print(fruits)
 ```
 
 ```python
+# ダメな例
+fruits = ['Apple', 'Orange', 'Grape']
+
+for i in fruits:
+ i = i.upper()
+
+print(fruits)
+```
+
+```python
+# 方法2（Python固有の書き方）
 fruits = ['Apple', 'Orange', 'Grape']
 
 for i, f in enumerate(fruits):

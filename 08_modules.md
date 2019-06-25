@@ -36,9 +36,11 @@ statistics.mean(nums)
 
 **問題** numsの中央値と最頻値を計算せよ。
 
-**問題（レポート課題）** for文を使って平均を計算せよ。
+**問題** for文を使って平均を計算せよ。
 
-**問題** モジュールを作る方法を確認せよ。（Google Colaboratoryでファイルを作る安直な方法）
+**問題（レポート課題）** for文を使って標準偏差を計算せよ。
+
+**問題（レポート課題）** モジュールを作る方法を確認せよ。（Google Colaboratoryでファイルを作る安直な方法）
 
 ```python
 !echo "def print_hello():" > hello.py
@@ -59,7 +61,7 @@ import hello
 hello.print_hello()
 ```
 
-**問題** モジュール中の動作確認用コードが，import時には実行されないようにする方法を確認せよ。
+**問題（レポート課題）** モジュール中の動作確認用コードが，import時には実行されないようにする方法を確認せよ。
 
 ```python
 !echo "print('Hello!')" > module1.py
