@@ -40,6 +40,20 @@ statistics.mean(nums)
 
 **問題（レポート課題）** for文を使って標準偏差を計算せよ。
 
+**問題** `[10, 20, 30, 20, 10, 10, 20]`というリストにおける，個々の数値とその出現回数を調べよ．参照：[collections.Counter](https://docs.python.org/ja/3/library/collections.html#collections.Counter)
+
+```python
+data = [10, 20, 30, 20, 10, 10, 20]
+
+import collections
+c = collections.Counter()
+print(c)
+```
+
+**問題（レポート課題）** 前問をふつうの辞書を使って解決せよ．
+
+**問題（レポート課題）** 前問を[defaultdict](https://docs.python.org/ja/3/library/collections.html#collections.defaultdict)を使って解決せよ．
+
 **問題（レポート課題）** モジュールを作る方法を確認せよ。（Google Colaboratoryでファイルを作る安直な方法）
 
 ```python
