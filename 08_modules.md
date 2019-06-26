@@ -46,7 +46,7 @@ statistics.mean(nums)
 data = [10, 20, 30, 20, 10, 10, 20]
 
 import collections
-c = collections.Counter()
+c = collections.Counter(data)
 print(c)
 ```
 
