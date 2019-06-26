@@ -30,7 +30,7 @@ random.randint(0, 100)
 ```python
 import statistics
 
-nums = [1, 5, 33, 12, 46, 33, 2]
+nums = [1, 5, 12, 33, 46, 33, 2]
 statistics.mean(nums)
 ```
 
