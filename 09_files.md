@@ -30,7 +30,7 @@ with open('test.txt', 'r', encoding='utf-8') as my_file:
 
 **問題** test.datの内容を画面に表示するPythonプログラムを書け。
 
-```python
+```
 # 想定していない回答
 !cat test.dat
 ```
