@@ -46,7 +46,7 @@ with open('test.txt', 'r', encoding='utf-8') as my_file:
 
 ```python
 # ファイルの確認
-cat test.csv
+!cat test.csv
 ```
 
 **問題** test.csvを読み，行ごとの合計値を画面に表示せよ。
