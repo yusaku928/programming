@@ -62,7 +62,7 @@ baz = [int(i) for i in bar]
 print(sum(baz))
 ```
 
-**問題（レポート課題）** 上の問題をPandasというライブラリを使って解決せよ。（こういう話は後期の「データマイニング入門」で詳説する。） 
+**問題（レポート課題）** 上の問題をPandasというライブラリを使って解決せよ（詳細は「データマイニング入門（後期）」）。ヒント：https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sum.html 
 
 ```
 import pandas as pd
