@@ -51,6 +51,23 @@ with open('test.txt', 'r', encoding='utf-8') as my_file:
 
 **問題** test.csvを読み，行ごとの合計値を画面に表示せよ。
 
-**問題（レポート課題）** test.csvを読み，列ごとの合計値を画面に表示せよ。
+ヒント：リストの要素の合計は次のように求められる。
 
-**問題（レポート課題）** 上記のtest.csvに関する問題を，csvモジュールを使って解決せよ。
+```python
+foo = [1, 2, 3, 4]
+print(sum(foo))
+
+bar = ['1', '2', '3', '4']
+baz = [int(i) for i in bar]
+print(sum(baz))
+```
+
+**問題（レポート課題）** 上の問題をPandasというライブラリを使って解決せよ。（こういう話は後期の「データマイニング入門」で詳説する。） 
+
+```
+import pandas as pd
+df = pd.read_csv('test.csv', header=None)
+# あと1行必要
+```
+
+**問題（レポート課題）** test.csvを読み，列ごとの合計値を画面に表示せよ。
